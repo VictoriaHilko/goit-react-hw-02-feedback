@@ -19,13 +19,6 @@
   justify-content: space-between;
 }
 
-.total {
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid tomato;
-  margin-top: 10px;
-}
 
 .itemName {
   font-size: 18px;
