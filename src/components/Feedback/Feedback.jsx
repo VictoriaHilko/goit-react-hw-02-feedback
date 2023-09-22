@@ -1,4 +1,5 @@
-import css from './Feedback.module.css'
+import css from './Feedback.module.css';
+import PropTypes from "prop-types";
 
 export const Feedback = (({ options, handleClick }) => {
     return (
@@ -19,3 +20,8 @@ export const Feedback = (({ options, handleClick }) => {
         </>
     );
 });
+
+Feedback.propTypes = {
+    options: PropTypes.arrayOf(PropTypes.string).isRequired,
+    handleClick: PropTypes.func.isRequired,
+};
