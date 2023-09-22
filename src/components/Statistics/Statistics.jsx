@@ -16,7 +16,7 @@ export const Statistics = (({ good, neutral, bad, totalCount, positivePercentage
                 <span className={css.itemName}>Bad:</span>
                 <span>{bad}</span>
             </li>
-            <li className={css.listItems, css.total}>
+            <li className={css.listItems}>
                 <span className={css.itemName}>Total:</span>
                 <span className={css.stat}>{totalCount}</span>
             </li>
