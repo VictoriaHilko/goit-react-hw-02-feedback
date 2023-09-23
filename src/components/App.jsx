@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Feedback } from "./Feedback/Feedback";
+import { FeedbackOptions } from "./FeedbackOptions/FeedbackOptions";
 import { Statistics } from "./Statistics/Statistics";
 import { Notification } from "./Notification/Notification";
 import { Section } from "./Section/Section";
@@ -40,7 +40,7 @@ export class App extends Component {
     return (
       <>
         <Section title='Please leave feedback' />
-        <Feedback
+        <FeedbackOptions
           options={options}
           handleClick={this.handleClick}
         />

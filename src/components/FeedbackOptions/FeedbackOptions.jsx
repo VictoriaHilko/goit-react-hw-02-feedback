@@ -1,7 +1,7 @@
-import css from './Feedback.module.css';
+import css from './FeedbackOptions.module.css';
 import PropTypes from "prop-types";
 
-export const Feedback = (({ options, handleClick }) => {
+export const FeedbackOptions = (({ options, handleClick }) => {
     return (
         <>
             <ul className={css.container}>
@@ -21,7 +21,7 @@ export const Feedback = (({ options, handleClick }) => {
     );
 });
 
-Feedback.propTypes = {
+FeedbackOptions.propTypes = {
     options: PropTypes.arrayOf(PropTypes.string).isRequired,
     handleClick: PropTypes.func.isRequired,
 };
