@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 
 export const FeedbackOptions = (({ options, handleClick }) => {
     return (
-        <>
             <ul className={css.container}>
                 {options.map((option, index) => {
                     const label = option.charAt(0).toUpperCase() + option.slice(1);
@@ -17,7 +16,6 @@ export const FeedbackOptions = (({ options, handleClick }) => {
                     );
                 })}
             </ul>
-        </>
     );
 });
 
